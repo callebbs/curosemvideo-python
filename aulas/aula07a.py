@@ -37,11 +37,16 @@ Alinhamento dentro da formatação:
 
 #print(f'Prazer {nome:=^20}, seja bem vindo!')
 
+-----------------------------------------------------------
 '''
-#primeiro código
-#nome = input("Qual o seu nome? ")
-#print(f'Prazer {nome:=^20}, seja bem vindo!')
 
+
+#primeiro código
+'''
+nome = input("Qual o seu nome? ")
+print(f'Prazer {nome:=^20}, seja bem vindo!')
+'''
+#segundo código
 numero1 = int(input("Digite um número: "))
 numero2 = int(input("Digite outro número: "))
 
@@ -56,3 +61,5 @@ print(f"A divisão inteira é: {divint} e a potência é: {exp}")
 
 #formatar o resultado float: :.3f
 #.3 diminuindo para 3 casas decimais e f de float
+
+#não quebrar a linha no final: adicionar , end=''
