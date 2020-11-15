@@ -7,4 +7,6 @@ nota2 = float(input("Digite sua segunda nota: "))
 
 media = (nota1 + nota2) / 2
 
-print(f"A média das notas {nota1} e {nota2} é de: {media}")
+print(f"A média das notas {nota1} e {nota2} é de: {media:.1f}")
+
+#:1f um número após o ponto flutuante
