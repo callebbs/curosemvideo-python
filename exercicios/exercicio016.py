@@ -6,8 +6,8 @@ Digite um número: 6.127
 O número 6.127 tem a parte inteira 6.
 '''
 
-import math
+from math import trunc
 
 numero = float(input("Digite um número real qualquer: "))
 
-print('O número digitado foi {} e sua porção inteira é {}.'.format(numero, math.trunc(numero)))
+print('O número digitado foi {} e sua porção inteira é {}.'.format(numero, trunc(numero)))
