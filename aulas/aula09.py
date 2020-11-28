@@ -23,3 +23,18 @@
 #Alteração de string através de métodos
 
 # frase.replace("Python", "Android") - Substitui a primeira string pela segunda.
+# frase.upper() - Transforma a string em Maiúsculo.
+# frase.lower() - Transforma a string em Minúsculo.
+# frase.capitalize() - Deixa a primeira letra da string em maiúscula e as outras em minúsculo.
+# frase.title() - Transforma todas as iniciais de frases em maiúsculo.
+# frase.strip() - Remove todos os espaços inúteis da string.
+# frase.rstrip() - Remove os espaços do lado direito. (últimos)
+# frase.lstrip() - Remove os espaços da esquerda. (primeiros)
+
+#Divisão
+
+# frase.split() - Divide toda a string em listas (cada palavra vira uma lista).
+
+#Junção
+
+# '-'.join(frase) - Junta as listas numa única string separadas pelo caractere '-'.
