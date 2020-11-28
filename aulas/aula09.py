@@ -16,6 +16,7 @@
 # frase.count('o', 0, 13) - Contagem com fatiamento. Neste exemplo ele conta do 0 até o 12 e faz a contagem.
 # frase.find('deo') - Mostra o índice inicial da string pesquisada (Resultado: 11)
 # frase.find("Android") - Ao pesquisar por string inexistente, retorna o valor -1.
+# frase.rfind('frase') - Pesquisa pela string no lado direito.
 # "Curso" in frase - Retorna resultado Booleano: True or False
 
 #Transformação
@@ -32,7 +33,7 @@
 # frase.lstrip() - Remove os espaços da esquerda. (primeiros)
 
 #Divisão
-
+ 
 # frase.split() - Divide toda a string em listas (cada palavra vira uma lista).
 
 #Junção
